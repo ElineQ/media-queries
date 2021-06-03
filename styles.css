@@ -1,0 +1,30 @@
+body{
+  background-color: mediumpurple;
+}
+.border{
+  background-color: hotpink;
+  border: orchid 10px solid;
+  color: midnightblue;
+  margin: 10px 5px 40px 7px;
+  padding: 20px;
+}
+.center-titel{
+  margin: 0 auto;
+  width: 500px;
+}
+.navigatie-links li {
+  display: inline;
+}
+
+@media (min-width 600px){
+  p {
+    font-size: 1,25rem;
+  }
+}
+
+@media (min-width 800px){
+  p{
+    font-size: 1,5rem;
+    line-height: 1,5;
+  }
+}
